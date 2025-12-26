@@ -4,7 +4,7 @@
 
 I wanted to move beyond basic CRUD apps and tackle **real-time concurrency**. This project forced me to learn how to handle bi-directional data streaming, manage state across multiple clients, and optimize HTML5 Canvas for performance.
 
-**🚀 Live Demo:** [Add Your Vercel Link Here]
+**🚀 Live Demo:** https://canvas-collab-realtime-whiteboard.vercel.app
 
 ---
 
@@ -72,16 +72,16 @@ I built this to be easy to run. You can spin it up in 5 minutes.
 1. **Clone the Repo:**
 
 ```bash
-git clone [your-repo-link]
+git clone https://github.com/lokeshbavandla/canvas-collab-realtime-whiteboard.git
 
 ```
 
 2. **Start Backend:**
 
 ```bash
-cd server
+cd backend
 npm install
-npm start
+npm run dev
 # Server runs on port 3001
 
 ```
@@ -89,7 +89,7 @@ npm start
 3. **Start Frontend:**
 
 ```bash
-cd client
+cd frontend
 npm install
 npm run dev
 # Open http://localhost:3000
